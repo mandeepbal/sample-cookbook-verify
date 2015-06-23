@@ -15,7 +15,6 @@
 ### Plugin Installation:
 * Install the plugin.  
 * Go to ``Manage Jenkins`` -> ``Configure System`` -> ``GitHub pull requests builder`` section.
-
 * Add GitHub usernames of admins (these usernames will be used as defaults in new jobs).  
 * Under Advanced, you can modify:  
   * The phrase for adding users to the whitelist via comment. (Java regexp)  
@@ -32,8 +31,6 @@
   - [Chef Identity Plugin](https://github.com/jenkinsci/chef-identity-plugin)
 * Install the plugin.  
 * Go to ``Manage Jenkins`` -> ``Configure System`` -> ``Chef Identity Management`` section.
-
-* Select Add  
-* Enter your Identity Name, User.pem and knife.rb
-* Save to preserve your changes.  
-
+  * Select Add  
+  * Enter your Identity Name, User.pem and knife.rb
+  * Save to preserve your changes.  
