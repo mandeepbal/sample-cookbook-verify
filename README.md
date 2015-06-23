@@ -5,7 +5,14 @@
 - Local Development flow is the process all contributors follow to develop and test their code
 - Jenkins - Download the following plugins:
   - GitHub pull request builder plugin
-### Installation:
+### Package Installation:
+* Install EPEL
+* Install git
+* Install chef-dk
+  * As `root` run  `echo 'eval "$(chef shell-init bash)"' >> ~/.bash_profile`
+### Chef Gem Installation:
+* `chef gem install kitchen-docker`
+### Plugin Installation:
 * Install the plugin.  
 * Go to ``Manage Jenkins`` -> ``Configure System`` -> ``GitHub pull requests builder`` section.
 
@@ -29,3 +36,4 @@
 * Select Add  
 * Enter your Identity Name, User.pem and knife.rb
 * Save to preserve your changes.  
+
