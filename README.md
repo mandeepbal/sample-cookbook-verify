@@ -34,3 +34,5 @@
   * Select Add  
   * Enter your Identity Name, User.pem and knife.rb
   * Save to preserve your changes.  
+
+  inew fix
